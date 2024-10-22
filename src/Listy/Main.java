@@ -20,9 +20,11 @@ public class Main {
 
         showList(studentList1);
        // showList(studentList2);       //niedozwolone bo metoda przyjmyje LinkedList
-
+        System.out.println("_______________________");
         showElements(studentList1);     //dozwolone - zobacz metodę, (interface List)
+        System.out.println("_______________________");
         showElements(studentList2);     //dozwolone - zobacz metodę, (interface List)
+        System.out.println("_______________________");
     }
 
     public static void showList(LinkedList<Student> lista){ //tylko dla LinkedList
